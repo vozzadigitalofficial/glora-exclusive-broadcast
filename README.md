@@ -1,6 +1,6 @@
 # Glora Media Grup - Exclusive BRI Liga 1 Landing Page
 
-Halaman resmi program patungan siaran BRI Liga 1 oleh **Glora Media Grup**.
+Halaman resmi program donasi siaran BRI Liga 1 oleh **Glora Media Grup**.
 
 ## Detail Merchant QRIS
 - **Nama Merchant:** Klinik Pijat Harapan Baru
