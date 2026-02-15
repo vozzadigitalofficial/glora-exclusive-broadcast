@@ -1,0 +1,136 @@
+:root {
+    --primary: #001d3d;
+    --secondary: #003566;
+    --accent: #ffc300;
+    --text-light: #f8f9fa;
+    --text-dark: #1d1d1f;
+}
+
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #000814;
+    color: var(--text-light);
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.hero {
+    height: 80vh;
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('https://images.unsplash.com/photo-1579952951717-3bf7918a5135?auto=format&fit=crop&w=1770&q=80') no-repeat center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.nav-logo {
+    width: 220px;
+    margin: 20px auto;
+    display: block;
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.btn-main {
+    background: var(--accent);
+    color: var(--primary);
+    padding: 15px 40px;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 50px;
+    transition: 0.3s ease;
+    display: inline-block;
+}
+
+.value {
+    padding: 80px 0;
+    background: #ffffff;
+    color: var(--text-dark);
+}
+
+.card-premium {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 24px;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.08);
+    text-align: center;
+    border: 1px solid #eee;
+}
+
+.divider {
+    height: 4px;
+    width: 50px;
+    background: var(--accent);
+    margin: 25px auto;
+}
+
+.amount {
+    font-size: 3.5rem;
+    font-weight: 800;
+    color: var(--primary);
+}
+
+.payment-note {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.qr-image {
+    width: 250px;
+    border: 10px solid #f8f9fa;
+    border-radius: 20px;
+}
+
+.qr-merchant {
+    margin-top: 10px;
+    font-size: 1.1rem;
+    color: var(--primary);
+}
+
+.manual-info {
+    background: #fdf7e2;
+    padding: 15px;
+    border-radius: 12px;
+    margin-top: 25px;
+}
+
+.disclaimer {
+    font-size: 0.75rem;
+    color: #999;
+    margin-top: 15px;
+    font-style: italic;
+}
+
+.btn-wa {
+    display: inline-block;
+    margin-top: 30px;
+    color: var(--secondary);
+    text-decoration: none;
+    font-weight: 600;
+    border-bottom: 2px solid var(--accent);
+}
+
+footer {
+    padding: 60px 0;
+    text-align: center;
+    background: #000814;
+}
+
+.slogan {
+    color: var(--accent);
+    font-weight: 600;
+}
